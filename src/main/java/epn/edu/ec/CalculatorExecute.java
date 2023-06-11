@@ -14,5 +14,10 @@ public class CalculatorExecute {
 
         double division = c.division(13, 2);
         System.out.println("Division: " + "c.division(13,2) = " + division);
+
+        System.out.println("A continuacion se agregara una nueva operacion matematica");
+        double division2 = c.division(14, 8);
+        System.out.println("Division: " + "c.division(14,8) = " + division2);
+        System.out.println("Excelente fin");
     }
 }
